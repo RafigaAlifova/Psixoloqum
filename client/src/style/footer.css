@@ -1,0 +1,141 @@
+.footer {
+    width: 85%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 24px 90px 37.5px 66px;
+    height: 380px;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer .say-hi {
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 23px;
+}
+
+.footer .say-hi span {
+    color: #FF7467;
+}
+
+.footer .first {
+    display: flex;
+ 
+justify-content: space-between;
+}
+
+.footer .first p {
+    width: 478px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 127%;
+    
+    color: #545454;
+}
+.footer .form{
+    display: flex;
+    align-items:center;
+}
+.footer .first .form input {
+    width: 274px;
+    height: 50px;
+    margin-right: 17px;
+    margin-left: 85px;
+    border: 0.984127px solid #FF7951;
+    border-radius: 4.92063px;
+
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.6825px;
+    line-height: 25px;
+    /* identical to box height, or 25px */
+
+    color: #484848;
+
+}
+
+.footer .first .form a {
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+
+}
+
+.footer .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #1D9BF0;
+}
+
+.footer .nav ul {
+    display: flex;
+
+
+}
+
+.footer .nav ul li {
+    margin-right: 25px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height, or 23px */
+}
+
+.footer .nav ul li:hover{
+    color: #6BBD99;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 1s;
+}
+
+.footer .social-media img{
+margin-right: 15px;
+}
+
+.footer .logo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24.4681px;
+    line-height: 30px;
+    text-align: center;
+    margin:58px 0 40px 0;
+    color: #24675A;
+}
+
+.footer .form a:hover + .form-back{
+    width: 200px;
+    transition: 1s;
+}
+
+.footer .form-back{
+    position: absolute;
+    width: 71px;
+    transition: 1s;
+    height: 62px;
+    left: 0;
+    top: 0;
+    
+    background: #FF7467;
+    border-radius: 5px;
+    z-index: -2;
+}
+.footer .relative{
+    position: relative;
+   height: 62px;
+   width: 200px;
+   padding-top: 17px;
+   padding-left: 10px;
+}

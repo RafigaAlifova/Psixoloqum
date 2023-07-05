@@ -1,0 +1,51 @@
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    height: 309px;
+    margin:auto;
+    margin-bottom: 66px;
+    
+    background-image: url("../..//images/home/contact-us.png");
+    background-repeat: no-repeat;
+
+    background-size:100% 100% ;
+}
+.contact-us p{
+    
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+width: 744px;
+color: #767676;
+
+
+}
+.contact-us p.head{
+    font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 25px;
+color: #000000;
+margin-bottom: 17px;
+}
+
+.contact-us a{
+    margin-top: 41px;
+padding:9px 20px ;
+text-align: center;
+background: #048990;
+border-radius: 10px;
+color:#ffffff;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 25.1197px;
+
+} 

@@ -1,0 +1,71 @@
+.offers{
+    display: flex;
+   justify-content:center;
+   
+
+}
+.offers .card{
+    width: 242.11px;
+height: 276.982px;
+    background: linear-gradient(0deg, #181818 0%, rgba(0, 0, 0, 0.00) 100%);    border-radius: 10.356px;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+position: relative;
+margin-right: 45px;
+margin-bottom: 60px;
+align-items:center
+
+}
+
+.offers p{
+    color: #F2F2F2;
+text-align: center;
+font-size: 13.949px;
+font-family:  'Montserrat';
+line-height: 127%;
+
+margin-top: 10px;
+}
+.offers p.head{
+    color: #FFF;
+text-align: center;
+font-size: 22.916px;
+font-family:  'Montserrat';
+font-weight: 600;
+line-height: 127%;
+}
+.offers img{
+    position: absolute;
+    z-index: -5;
+    top:0;
+    right: 0;;
+    width:100%;
+flex-shrink: 0;
+}
+.offers a{
+    display: inline-flex;
+padding: 5.978px 20.476px 8.886px 20.905px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+background: #048990;
+margin-top: 20px;
+color: #FFF;
+font-size: 16px;
+font-family:  'Montserrat';
+font-weight: 600;
+line-height: 127%;
+width: 168px;
+}
+.offers-header{
+    
+    font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 127%;
+text-align: center;
+margin-top: 84px;
+margin-bottom: 56px;}
